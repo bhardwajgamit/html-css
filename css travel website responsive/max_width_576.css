@@ -1,0 +1,29 @@
+@media (max-width:576px){
+    .header-con{
+margin: 0px 10px;
+    }
+.container{
+    margin: 0px 20px;
+}
+/*========header menubar+++++*/
+
+header .menubar .nav-bar{
+
+    display: none;
+}
+header .menubar  .togl-btn button{
+    display: block ;
+}
+/*---=====--slider menu=========---*/
+.slide-bar .containe-box{
+    display: flex;
+    flex-direction: column;
+}
+/*=====================bokin section=========*/
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+/*============packeges====================*/
+}

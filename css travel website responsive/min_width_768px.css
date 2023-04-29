@@ -1,0 +1,27 @@
+@media (min-width:768px) {
+    .header-con{
+        margin: 0px 30px;
+            }
+            .container{
+                margin: 0px 50px;
+            }
+            /*========header menubar+++++ inherit value
+header .menubar .nav-bar{
+
+    display: none;
+}
+header .menubar  .togl-btn button{
+    display: block ;
+}*/
+    
+
+/*====inherite value====== from 768px*/
+/*=====================bokin section=========*/
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+/*============packeges====================*/
+
+}

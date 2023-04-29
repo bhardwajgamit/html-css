@@ -1,0 +1,23 @@
+@media (min-width:992px) {
+    .header-con{
+        margin: 0px 80px;
+            }
+        
+        /*========header menubar+++++*/
+        header .menubar .nav-bar{
+        
+            display: flex;
+        }
+        header .menubar  .togl-btn button{
+            display: none;
+        }
+/* inherite value frm 992px*/
+/*=====================bokin section=========*/
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+/*============packeges====================*/
+
+}
